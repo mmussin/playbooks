@@ -1,0 +1,3 @@
+---
+- name: Server test connection
+  command: cat /home/ubuntu/test1
