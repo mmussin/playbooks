@@ -1,4 +1,4 @@
 ---
 - name: Running placeholder for playbook
   nxos_command:
-    commands: show version
+  commands: show version
