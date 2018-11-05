@@ -1,0 +1,8 @@
+
+---
+- name: Server test connection
+  hosts: servers
+  
+  tasks:
+    - name: clone test1 file
+      shell: cat test1 >> test2
