@@ -4,4 +4,4 @@
   
   tasks:
     - name: clone test1 file
-      shell: /home/ubuntu/test1 >> /home/ubuntu/test2
+      shell: cat test1 >> test2
