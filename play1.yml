@@ -1,3 +1,8 @@
-name: Running placeholder for playbook
-nxos_command:
-commands: show version
+---
+- name: NXOS Ansible test connection
+  hosts: nxos
+  
+  tasks:
+    - name: run show version on remote devices
+      nxos_command:
+        commands: show version
