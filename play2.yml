@@ -3,5 +3,5 @@
   hosts: servers
   
   tasks:
-    - name: cat test1 file
-      shell: cat /home/ubuntu/test1
+    - name: clone test1 file
+      shell: /home/ubuntu/test1 >> /home/ubuntu/test2
