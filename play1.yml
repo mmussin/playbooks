@@ -1,6 +1,4 @@
 ---
-name: Placeholder for playbook
-
 tasks:
   - name: Running placeholder for playbook
     nxos_command:
