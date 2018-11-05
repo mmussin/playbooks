@@ -1,4 +1,3 @@
-
 ---
 - name: Server test connection
   hosts: servers
