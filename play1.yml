@@ -1,15 +1,16 @@
 ---
-- name: NXOS Ansible test connection
-  hosts: nxos
-  gather_facts: no
-  connection: local
+
+  - name: NXOS Ansible test connection
+    hosts: nxos
+    gather_facts: no
+    connection: local
   
-  vars:
-    nxos_provider:
-      transport: nxapi
+    vars:
+      nxos_provider:
+        transport: nxapi
   
-  tasks:
-    - name: run show version on remote devices
-      nxos_command:
-        commands: show version
-        wait_for: result[0] contains Cisco
+    tasks:
+      - name: run show version on remote devices
+        nxos_command:
+          commands: show version
+          wait_for: result[0] contains Cisco
