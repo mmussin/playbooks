@@ -1,13 +1,13 @@
 ---
 
   - name: NXOS Ansible test connection
-    hosts: nxos
+    hosts: 10.7.0.2
     gather_facts: no
     connection: local
   
     vars:
       nxos_provider:
-        transport: nxapi
+        transport: ssh
   
     tasks:
       - name: run show version on remote devices
