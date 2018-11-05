@@ -1,0 +1,7 @@
+---
+- name: Server test connection
+  hosts: servers
+  
+  tasks:
+    - name: cat test1 file
+      shell: cat /home/ubuntu/test1
