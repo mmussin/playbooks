@@ -2,4 +2,3 @@
 - name: Running placeholder for playbook
   nxos_command:
     commands: show version
-    wait_for: results[0] contains Cisco
