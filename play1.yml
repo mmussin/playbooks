@@ -1,7 +1,7 @@
 ---
 
   - name: NXOS Ansible test connection
-    hosts: n9k1
+    hosts: nxos
     gather_facts: no
     connection: local
   
